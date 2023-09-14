@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="web site, gtx 4090 ti, rx 6900 xt"/>
+    <meta name="author" content="Lucas Gabriel Lisboa">
+    <link rel="stylesheet" href="index.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <section>
+        <div class="header">
+            <a href="home.html">Home</a>
+            <a href="historico.html">Histórico de compras</a>
+        </div>
+        <div class="form-box">
+            <h2 class="cadastro">CADASTRO</h2>
+            <div class="form-value">
+                <form action="historico.html" method="get">
+                    <h2>Dados Pessoais</h2>
+                    <div class="inputbox">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <input type="nome" id="nome" value="" required>
+                        <label for="">Nome</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <input type="sobrenome" id="sobrenome" value="" required>
+                        <label for="">Sobrenome</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="calendar-outline"></ion-icon>
+                        <input type="date" id="date" value="" required>
+                        <label for="">Data de nascimento</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="clipboard-outline"></ion-icon>
+                        <input type="cpf" id="cpf" value="" pattern="[0-9]{3}[0-9]{3}[0-9]{3}[0-9]{2}" required>
+                        <label for="">CPF</label>
+                    </div>
+                    <h2>Endereço para entrega</h2>
+                    <div class="inputbox">
+                        <ion-icon name="home-outline"></ion-icon>
+                        <input type="rua" id="rua" value="" required>
+                        <label for="">Rua</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="code-outline"></ion-icon>
+                        <input type="numero" id="numero" value="" required>
+                        <label for="">Número</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="home-outline"></ion-icon>
+                        <input type="cep" id="cep" value="" pattern="[0-9]{5}[0-9]{3}" required>
+                        <label for="">CEP</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="business-outline"></ion-icon>
+                        <input type="cidade" id="cidade" value="" required>
+                        <label for="">Cidade</label>
+                    </div>
+                    <h2>Acesso à plataforma</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" id="email" value="" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" id="senha" value="" required>
+                        <label for="senha">Senha</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Lembre-se de min <a href="#">Esqueci minha senha</a></label> 
+                    </div>
+                    <input type="submit" class="send">
+                    <div class="register">
+                        <p>Não tenho uma conta <a href="#">Cadastre-se</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <h6>Lucas Gabriel Lisboa</h6>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
