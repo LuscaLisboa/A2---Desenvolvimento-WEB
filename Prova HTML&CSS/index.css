@@ -52,6 +52,12 @@ h2{
     font-size: 2em;
     color: white
 }
+#date{
+    color: transparent;
+}
+#date:focus{
+    color: white;
+}
 ::-webkit-calendar-picker-indicator{
     position: relative;
     background: transparent;
